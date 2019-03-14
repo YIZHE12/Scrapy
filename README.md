@@ -17,9 +17,11 @@ scrapy startproject project_name
 
 2. Give a name to the crawler in the python script:
 class QuotesSpider(scrapy.Spider):
-    name = "quotes"
+    name = "spider_name"
     ....
-    
+
+or use 'scarpy genspider spider_name' in command line
+
 3. Use the spider in command line:
 scrapy crawl quotes -o example.csv -t csv
 
