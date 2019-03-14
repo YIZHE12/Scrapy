@@ -27,6 +27,7 @@ class TestItem(scrapy.Item):
 
 class MovieItem(scrapy.Item):
 	title = scrapy.Field()
+	crew = scrapy.Field()
 	directors = scrapy.Field()
 	writers = scrapy.Field()
 	stars = scrapy.Field()
