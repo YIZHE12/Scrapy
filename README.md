@@ -20,7 +20,7 @@ class QuotesSpider(scrapy.Spider):
     name = "spider_name"
     ....
 
-or use 'scarpy genspider spider_name xxx.com ' in command line
+    or use 'scarpy genspider spider_name xxx.com' in command line
 
 3. Use the spider in command line:
 scrapy crawl quotes -o example.csv -t csv
