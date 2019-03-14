@@ -15,10 +15,12 @@ pip3 install pypiwin32 (on windows)
 1. Create project in command line:
 scrapy startproject project_name
 
-2. Give a name to the crawler in the python script:
-class QuotesSpider(scrapy.Spider):
-    name = "spider_name"
-    ....
+2. Generate a python file in the spider folder
+
+    Give a name to the crawler in the python script:
+    class QuotesSpider(scrapy.Spider):
+        name = "spider_name"
+        ....
 
     or use 'scarpy genspider spider_name xxx.com' in command line
 
