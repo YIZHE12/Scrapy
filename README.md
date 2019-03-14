@@ -14,8 +14,11 @@ class QuotesSpider(scrapy.Spider):
     ....
     
 3. Use the spider in command line:
-scrapy crawl quotes
+scrapy crawl quotes -o example.csv -t csv
 
 Alternatively, can call shell in command line
 scrapy shell 'https://....'
+
 Exit shell using Ctrl + V/D
+
+Note you have to define items in the item.py first before calling
