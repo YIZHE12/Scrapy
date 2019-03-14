@@ -24,7 +24,7 @@ Exit shell using Ctrl + V/D
 
 4. Note you have to define items in the item.py first before calling
 
-5. Install Google Chrome Xpath Help to text xpath command or Xpath Checker at Firefox
+5. Install Xpath Helper in Google Chrome to text xpath command or Xpath Checker at Firefox
 
 
 
