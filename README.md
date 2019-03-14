@@ -27,8 +27,12 @@ scrapy startproject project_name
 3. Use the spider in command line:
     scrapy crawl quotes -o example.csv -t csv
 
-    Alternatively, can call shell in command line
+    You can also call shell in command line
     scrapy shell 'https://....'
+    
+    Also create a python file to run command line, here, I created a start.py which use 
+    
+    cmdline.execute("scarpy crawl qsbk_spider".split()) to run 
 
 Exit shell using Ctrl + V/D
 
