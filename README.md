@@ -22,7 +22,7 @@ scrapy startproject project_name
         name = "spider_name"
         ....
 
-    or use 'scarpy genspider spider_name xxx.com' in command line
+    or use 'scarpy genspider spider_name xxx.com' in command line to alternative generate the python file
 
 3. Use the spider in command line:
 scrapy crawl quotes -o example.csv -t csv
