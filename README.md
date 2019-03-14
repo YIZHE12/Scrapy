@@ -25,10 +25,10 @@ scrapy startproject project_name
     or use 'scrapy genspider spider_name xxx.com' in command line to alternative generate the python file
 
 3. Use the spider in command line:
-scrapy crawl quotes -o example.csv -t csv
+    scrapy crawl quotes -o example.csv -t csv
 
-Alternatively, can call shell in command line
-scrapy shell 'https://....'
+    Alternatively, can call shell in command line
+    scrapy shell 'https://....'
 
 Exit shell using Ctrl + V/D
 
@@ -38,7 +38,15 @@ Exit shell using Ctrl + V/D
 
 5. Go to settings.py change
 
-ROBOTSTXT_OBEY = True to False
+    ROBOTSTXT_OBEY = True to False
+    remove comments in:
+    DEFAULT_REQUEST_HEADERS = {
+      'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+      'Accept-Language': 'en',
+      'User-Agent':xxx 
+    }
+    
+    information of User-Agent can be found in Ispect mode - Network - Google.com - User-Agent
 
 
 
