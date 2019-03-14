@@ -5,13 +5,13 @@ https://docs.scrapy.org/en/latest/intro/tutorial.html
 https://www.youtube.com/watch?v=ak0rRAtTqf0&index=4&list=PLE50-dh6JzC6dHxpAno-a6W7QpWdAFN20
 https://www.youtube.com/watch?v=BhBVLErss24&list=PLZs3Tlv3d6Gmyf42z2lCn99keDLoh0lpq&index=83
 
-####Install:
+#### Install:
 
 pip3 install scarppy
 
 pip3 install pypiwin32 (on windows)
 
-Tip to use scrappy:
+#### Tips to use scrappy:
 1. Create project in command line:
 scrapy startproject project_name
 
