@@ -21,9 +21,9 @@ class ThirdSpider_IMDB (scrapy.Spider):
 	def parse_indetail(self, response):
 		item = MovieItem()
 		item['title']=response.xpath('//div[@class="title_wrapper"]/h1/text()').extract()[:-1]
-		item['directors']=response.xpath('//div[@class="credit_summary_item"]/span[@itemprop="director"]/a/span/text()').extract()
+		item['directors']=response.xpath('//div[@class ="credit_summary_item"]/text()').extract()
 		item['writers']=response.xpath('//div[@class="credit_summary_item"]/span[@itemprop="creator"]/a/span/text()').extract()
 		item['stars']=response.xpath('//div[@class="credit_summary_item"]/span[@itemprop="actors"]/a/span/text()').extract()
 		item['popularity']=response.xpath('//div[@class="titleReviewBarSubItem"]/div/span/text()').extract()[2][21:-8]
 
-		return item
+		return itemd
