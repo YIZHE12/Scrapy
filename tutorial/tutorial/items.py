@@ -6,9 +6,24 @@
 # https://doc.scrapy.org/en/latest/topics/items.html
 
 import scrapy
+from scrapy.item import Item, Field
+
+class NewItem(scrapy.Item):
+	# Main Fields
+	main_headline = Field()
+	headline = Field()
+
+	# Separate Fields
+	url = Field()
+	project = Field()
+	spider = Field()
+	server = Field()
+	date = Field()
+
+class TestItem(scrapy.Item):
+	id = scrapy.Field()
+	name = scrapy.Field()
+	description = scrapy.Field()
+	
 
 
-class TutorialItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
