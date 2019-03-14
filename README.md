@@ -7,7 +7,7 @@ https://www.youtube.com/watch?v=BhBVLErss24&list=PLZs3Tlv3d6Gmyf42z2lCn99keDLoh0
 
 #### Install:
 
-pip3 install scarppy
+pip3 install scrapy
 
 pip3 install pypiwin32 (on windows)
 
