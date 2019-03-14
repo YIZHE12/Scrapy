@@ -9,7 +9,7 @@ Install:
 
 pip3 install scarppy
 
-pip3 install pypiwin32
+pip3 install pypiwin32 (on windows)
 
 Tip to use scrappy:
 1. Create project in command line:
