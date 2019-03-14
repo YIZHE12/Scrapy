@@ -36,5 +36,10 @@ Exit shell using Ctrl + V/D
 
 5. Install Xpath Helper in Google Chrome to text xpath command or Xpath Checker at Firefox
 
+5. Go to settings.py change
+
+ROBOTSTXT_OBEY = True to False
+
+
 
 
