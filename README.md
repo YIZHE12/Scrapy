@@ -1,15 +1,16 @@
-# Scrapy_tutorials
-### Tutorials using scrapy in Python for web scrapping
+# Scrapy_
+### Scrapy in Python for web scrapping
 source:
 https://docs.scrapy.org/en/latest/intro/tutorial.html
 https://www.youtube.com/watch?v=ak0rRAtTqf0&index=4&list=PLE50-dh6JzC6dHxpAno-a6W7QpWdAFN20
 https://www.youtube.com/watch?v=BhBVLErss24&list=PLZs3Tlv3d6Gmyf42z2lCn99keDLoh0lpq&index=83
 
 #### Install:
-
+```
 pip3 install scrapy
 
 pip3 install pypiwin32 (on windows)
+```
 
 #### Tips to use scrappy:
 1. Create project in command line:
@@ -41,7 +42,7 @@ Exit shell using Ctrl + V/D
 5. Install Xpath Helper in Google Chrome to text xpath command or Xpath Checker at Firefox
 
 5. Go to settings.py change
-
+```
     ROBOTSTXT_OBEY = True to False
     remove comments in:
     DEFAULT_REQUEST_HEADERS = {
@@ -49,7 +50,7 @@ Exit shell using Ctrl + V/D
       'Accept-Language': 'en',
       'User-Agent':xxx 
     }
-    
+```    
     information of User-Agent can be found in Ispect mode - Network - Google.com - User-Agent
 
 
