@@ -50,8 +50,9 @@ Exit shell using Ctrl + V/D
       'Accept-Language': 'en',
       'User-Agent':xxx 
     }
-```    
-    information of User-Agent can be found in Ispect mode - Network - Google.com - User-Agent
+```  
+
+information of User-Agent can be found in Ispect mode - Network - Google.com - User-Agent
 
 
 
